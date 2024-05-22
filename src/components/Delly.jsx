@@ -1,8 +1,10 @@
-export default function Home() {
+export default function Delly() {
+
     return (
         <div>
-           
+            
         </div>
     )
+
 
 }

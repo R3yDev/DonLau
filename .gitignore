@@ -4,6 +4,7 @@
 /public/*.png
 /public/*.ico
 /public/images
+/public/Media
 *.map
 
 # dependencies
