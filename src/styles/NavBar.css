@@ -1,16 +1,15 @@
 .header {
   outline: 1px solid red;
   width: 1200px;
-  height: 50px;
-  margin-right: 400px;
+  height: 100px;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   border-radius: 10vw;
   margin-top: 20px;
+  margin-left: 300px;
+  cursor: pointer;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: poppins, serif;
-  font-size: 2rem;
 }
 .header .logo {
   width: 200px;
@@ -19,8 +18,12 @@
   border-radius: 100px;
   text-align: center;
   padding-top: 2px;
+  font-family: poppins, serif;
+  font-size: 2rem;
 }
 .header ul li {
-  display: inline;
-  padding: 20px;
+  font-family: poppins, serif;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0px 20px;
 }/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,9 @@
+body {
+    width: 1500px;
+    height: 2000px;
+    margin-left: 200px;
+    border: 2px solid yellow;
+    background-image: radial-gradient(at center top, rgb(2, 132, 199), rgb(30, 58, 138), rgb(8, 145, 178)); 
+    //linear-gradient(to right, rgb(186, 230, 253) 50%, rgb(56, 189, 248) 50% );     
+    box-sizing: border-box;
+}

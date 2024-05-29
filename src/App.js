@@ -1,5 +1,5 @@
 import './Styles/Reset.css';
-import './App.css';
+import './Styles/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import DonLau from './components/DonLau';
