@@ -1,33 +1,37 @@
 .header {
-    outline: 1px solid red;
-    width: 1200px;
-    height: 100px;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
-    border-radius: 10vw;
-    margin-top: 20px;
-    margin-left: 300px;
-    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    background: #11141a;
     
     .logo {
+        color: white;
+        font-family: 'poppins',serif;
+        font-size: 2rem;
+        text-align: center;
         width: 200px;
         height: 40px;
         background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246));
         border-radius: 100px;
-        text-align: center;
         padding-top: 2px;
-        font-family: poppins,serif;
-        font-size: 2rem;
         
     }
 
+}
+
+nav {
     ul li  {
-        font-family: poppins,serif;
         font-size: 2rem;
+        font-family: 'poppins',serif;
         display: inline-block;
         padding: 0px 20px;
+        
+        
     }
+
 }

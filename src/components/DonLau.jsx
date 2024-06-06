@@ -19,10 +19,12 @@ export default function DonLau() {
                 </div>
                 <div className="right">
                 <h2>Contacte-nos</h2>
-                <h3>Email: </h3>
-                <h3>Telemóvel: </h3>
-                <h3>Localização: </h3>
-                
+                    <ul>
+                        <li>Email:</li>
+                        <li>Telemóvel:</li>
+                        <li>Whatsapp:</li>
+                        <li>Localização</li>
+                    </ul>
                 </div>
             </section>   
         </div>

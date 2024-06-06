@@ -1,5 +1,20 @@
 footer {
-    border: 10px solid white;
-    width: 159px;
-    margin-top: 1000px;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apps {
+    display: flex;
+}
+
+.apps_png {
+    width: 150px;
+    height: 50px;
+
 }

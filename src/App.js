@@ -5,7 +5,6 @@ import NavBar from './components/NavBar';
 import DonLau from './components/DonLau';
 import Destination from './components/Destination';
 import Delly from './components/Delly';
-import SleepyTime from './components/SleepyTime';
 import Lavandaria from './components/Lavandaria';
 import Barbers from './components/Barbers';
 import Footer from './components/Footer';
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" element={<DonLau />}/>
           <Route path="/Destination" element={<Destination />}/>
           <Route path="/Delly" element={<Delly />}/>
-          <Route path="/SleepyTime" element={<SleepyTime />}/>
           <Route path="/Lavandaria" element={<Lavandaria />}/>
           <Route path="/Barbers" element={<Barbers />}/>
         </Routes>

@@ -1,1 +1,14 @@
-/*# sourceMappingURL=Destination.css.map */
+.dashboard {
+  margin-top: 500px;
+}
+
+.reviews {
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilePicture1, .profilePicture2, .profilePicture3 {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=Destination.css.map */

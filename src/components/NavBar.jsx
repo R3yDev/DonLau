@@ -12,7 +12,6 @@ export default function NavBar() {
                 <ul className="menu">
                 <li><NavLink to="/Destination">Destination</NavLink></li>
                 <li><NavLink to="/Delly">Delly</NavLink></li>
-                <li><NavLink to="/SleepyTime">SleepyTime</NavLink></li>
                 <li><NavLink to="/Lavandaria">Lavandaria</NavLink></li>
                 <li><NavLink to="/Barbers">Barbers</NavLink></li>
                 </ul> 
