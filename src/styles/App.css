@@ -1,4 +1,7 @@
 body {
-  background-image: conic-gradient(rgb(23, 23, 23), rgb(30, 58, 138), rgb(236, 252, 203));
+  background: #11141a;
   box-sizing: border-box;
+}
+body a {
+  color: white;
 }/*# sourceMappingURL=App.css.map */

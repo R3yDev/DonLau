@@ -1,27 +1,114 @@
-.section1 {
-  width: 1000px;
-  height: 600px;
-  outline: 2px solid white;
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  #Home {
+    display: block;
+  }
+}
+#Home {
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+}
+#Home .section1 {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
+}
+#Home .section1 .img1 {
+  border-radius: 500px;
+  margin-left: 100px;
+  box-shadow: 5px -5px 48px #1e427b, -5px 5px 48px #59c6ff;
+}
+#Home .section1 h1 {
+  font-weight: 10px;
+}
+#Home .section1 p {
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
   margin-top: 100px;
 }
-.section1 h1 {
+#Home .section2 {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(rgb(186, 230, 253), rgb(56, 189, 248));
+}
+#Home .section2 p {
   font-size: 2rem;
-  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
-.section1 p {
-  font-size: 2rem;
+#Home .section2 .img1 {
+  width: 700px;
+  height: 250px;
 }
-.section1 .img1 {
-  width: 900px;
+#Home .section3 {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
+}
+#Home .section3 .h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 500px;
+}
+#Home .section3 .cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 1300px;
+  outline: 1px solid red;
+}
+#Home .section3 .cards .card1 {
+  width: 400px;
   height: 600px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 50px;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  margin-right: 500px;
+  outline: 1px solid yellow;
 }
-
-.section2 {
-  width: 1000px;
-  height: 600px;
-  outline: 2px solid white;
+#Home .section3 .cards .card1 form {
+  display: grid;
+  width: 300px;
+  gap: 50px;
+  font-size: 3rem;
+  margin-right: 3px;
 }
-.section2 .img2 {
-  width: 900px;
+#Home .section3 .cards .card1 form .btn {
+  width: 200px;
+  width: 200px;
+  text-align: center;
+}
+#Home .section3 .cards .card1 .card2 {
+  width: 400px;
   height: 600px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 50px;
+  z-index: 2;
 }/*# sourceMappingURL=DonLau.css.map */

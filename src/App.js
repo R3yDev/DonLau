@@ -7,13 +7,11 @@ import Destination from './components/Destination';
 import Delly from './components/Delly';
 import Lavandaria from './components/Lavandaria';
 import Barbers from './components/Barbers';
-import Footer from './components/Footer';
 
 
 function App() {
   return (
     <BrowserRouter>
-      
       <div className="App">
         <NavBar />
         <Routes>
@@ -23,10 +21,7 @@ function App() {
           <Route path="/Lavandaria" element={<Lavandaria />}/>
           <Route path="/Barbers" element={<Barbers />}/>
         </Routes>
-        <Footer />
-
       </div>
-      
     </BrowserRouter>
   );
 }

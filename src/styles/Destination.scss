@@ -1,13 +1,101 @@
-.dashboard {
-    margin-top: 500px;
-}
+#Destination {
+    background: radial-gradient(rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+    font-family: "Space Mono", monospace;
+    color: white;
 
-.reviews {
-    border: 5px solid black;
-    display: flex;
-    justify-content: space-between;
+    .dashboard {
+        width: 100%;
+    }
+
+    .section2 {
+        border: 1px solid red;
+        color: radial-gradient(rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));;
+        h1 {
+            font-size: 100px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            
+        }
+
+        p {
+            font-size: 2rem;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+        }
+    }
+    .reviews {
+        border: 5px solid black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        height: 30%;
+        margin: 30px;
+        p {
+            font-size: 1rem;
+        }
+        
+        .profilePicture1, .profilePicture2, .profilePicture3 {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .section3 {
+        border: 1px solid pink;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 30px;
+
+        .left {
+            border: 1px solid blue;
+            width: 400px;
+            height: 500px;
+            background: linear-gradient(
+                to right bottom,
+                rgba(255, 255, 255, 0.7),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-radius: 50px;
+            z-index: 2;
+            display: grid;
+            place-items: center;
+
+            h2 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+        .right {
+            border: 1px solid yellow;
+            background: linear-gradient(
+                to right bottom,
+                rgba(255, 255, 255, 0.7),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-radius: 50px;
+
+            .h2 {
+                font-size: 2rem;
+            }
+            
+            form {
+                display: grid;
+                width: 400px;
+                gap: 30px;
+                font-size:3rem;
+                margin-right: 3px;
+                
+
+            }
+        }
+    }
 }
-.profilePicture1, .profilePicture2, .profilePicture3 {
-    width: 100px;
-    height: 100px;
-}
+    
+

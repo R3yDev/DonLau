@@ -1,19 +1,22 @@
 footer {
-  background: #333;
-  color: white;
   text-align: center;
   padding: 20px;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  position: fixed;
 }
-
-.apps {
+footer p {
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+footer .apps {
   display: flex;
 }
-
-.apps_png {
+footer .apps_png {
   width: 150px;
   height: 50px;
+  margin-right: 10px;
 }/*# sourceMappingURL=Footer.css.map */

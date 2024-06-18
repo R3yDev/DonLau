@@ -1,9 +1,26 @@
-.banner1 {
+#Delly {
+  color: white;
+  background: linear-gradient(to right, rgb(153, 27, 27), rgb(202, 138, 4), rgb(234, 179, 8));
+}
+#Delly h1 {
+  padding-top: 200px;
+  font-size: 100px;
+  text-align: center;
+}
+#Delly p {
+  padding-top: 100px;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+#Delly .banner1 {
+  padding-top: 100px;
   width: 1500px;
   height: 550px;
 }
-
-.banner2 {
+#Delly .banner2 {
   width: 1500px;
   height: 350px;
 }/*# sourceMappingURL=Delly.css.map */
