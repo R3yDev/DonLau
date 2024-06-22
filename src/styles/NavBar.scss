@@ -8,20 +8,22 @@
     margin-left: 50;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
     background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.3)
     ); 
     border-radius: 100px;
-    animation: fadeIn 2s;
-    @keyframes fadeIn {
+    animation: fadeDown 2s;
+    @keyframes fadeDown {
         0% {
             opacity: 0;
+            transform: translateY(-30px) scale(0.9);
         }
         100% {
             opacity: 1;
+            transform: translateY(0px) scale(1);
         }
     }
     

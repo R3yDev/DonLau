@@ -1,26 +1,45 @@
 #Delly {
   color: white;
-  background: linear-gradient(to right, rgb(153, 27, 27), rgb(202, 138, 4), rgb(234, 179, 8));
+  background-color: #C3E4F3;
 }
-#Delly h1 {
-  padding-top: 200px;
+#Delly .section3 h1 {
+  width: 980px;
+  height: 10px;
+  padding: 200px;
   font-size: 100px;
   text-align: center;
+  outline: 1px solid red;
 }
-#Delly p {
-  padding-top: 100px;
+#Delly .section3 p {
+  padding-top: 30px;
   font-size: 2rem;
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 100px;
+  outline: 1px solid red;
 }
-#Delly .banner1 {
-  padding-top: 100px;
-  width: 1500px;
-  height: 550px;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100);
+  }
 }
-#Delly .banner2 {
-  width: 1500px;
-  height: 350px;
+#Delly .logos {
+  padding: 60px 0;
+  overflow: hidden;
+}
+#Delly .logos .logos-slide {
+  background: #f2f2f2;
+  white-space: nowrap;
+  display: inline-block;
+  animation: 5s slide infinite linear;
+  margin-top: 130px;
+}
+#Delly .logos .logos-slide img {
+  height: 100px;
+  margin: 0 40px;
+  padding: 15px;
 }/*# sourceMappingURL=Delly.css.map */

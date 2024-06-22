@@ -4,20 +4,34 @@ export default function Delly() {
 
     return (
         <main id="Delly">
-            <h1>Faça já o seu pedido</h1>
             <section className="section3">
+                <h1>Faça já o seu pedido</h1>
                 <p>
-                    Nós DonLau Delly falar sobre o nosso serviço e sobre os nosso colaboradores..
-                    equat id porta nibh venenatis cras sed. Augue eget arcu dictum varius duis at consectetur. Dui faucibus in ornare quam viverra orci sagittis eu. Morbi non arcu risus quis varius quam quisque. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Enim praesent elementum facilisis leo vel fringilla. Enim sed faucibus turpis in eu mi. Od
+                Entendendo a crescente demanda por conveniência, a DonLau&Cia também oferece serviços de entrega ao domicílio. Seja para a entrega de botijas de gás, compras de supermercado ou outros itens essenciais, a empresa garante um serviço rápido e confiável, facilitando a vida dos seus clientes
                 </p>
             </section>
-            <img src="/Media/banner1.png" alt="" className="banner1"/>
+            <div className="logos">
+                <div className="logos-slide">
+                    <img src="/Media/logo2.png" alt="" />
+                    <img src="/Media/logo4.png" alt="" />
+                    <img src="/Media/logo3.png" alt="" />
+                    <img src="/Media/logo9.png" alt="" />
+                    <img src="/Media/logo5.png" alt="" />
+                    <img src="/Media/logo1.png" alt="" />
+                </div>
+            </div>
             <section className="video">
             <video controls autoPlay loop>
                 <source src="/Media/mixkit-adding-food-to-a-shopping-cart-14991-hd-ready.mp4" type="video/mp4"/>
             </video>
             </section>
-            <img src="/Media/banner2.png" alt="" className="banner2"/>
+            <div className="logos">
+                <div className="logos-slide">
+                    <img src="/Media/logo6.png" alt="" />
+                    <img src="/Media/logo7.png" alt="" />
+                    <img src="/Media/logo8.png" alt="" />
+                </div>
+            </div>
             <section className="video">
             <video controls autoPlay loop>
                 <source src="/Media/mixkit-a-man-lying-on-the-bed-scrolling-food-pictures-on-13169-hd-ready.mp4" type="video/mp4"/>

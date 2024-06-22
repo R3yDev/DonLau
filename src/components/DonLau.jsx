@@ -7,45 +7,53 @@ export default function DonLau() {
             <section className="section1">
                 <img src="/Media/s.JPG" alt="" className="img1" />
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor consequat id porta nibh venenatis cras sed. Augue eget arcu dictum varius duis at consectetur. Dui faucibus in ornare quam viverra orci sagittis eu. Morbi non arcu risus quis varius quam quisque. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Enim praesent elementum facilisis leo vel fringilla. Enim sed faucibus turpis in eu mi. Odio aenean sed adipiscing diam donec adipiscing. Scelerisque viverra mauris in aliquam sem. Justo laoreet sit amet cursus sit amet dictum sit. Et magnis dis parturient montes. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Ullamcorper malesuada proin libero nunc consequat interdum. Est sit amet facilisis magna etiam tempor orci eu lobortis.    
+                    A DonLau&Cia é uma empresa multifacetada, dedicada a oferecer uma ampla gama de serviços para satisfazer as necessidades diárias de seus clientes.
+                    É impulsionada por um compromisso com a excelência em todas as suas operações. Com uma equipe dedicada e um foco constante em inovação e melhoria de serviços, a empresa continua a expandir e a melhorar suas ofertas, sempre com o objetivo de superar as expectativas dos clientes.    
                 </p>
                 </section>
                 <section className="section2">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incamet cursus sit amet dictum sit. Et magnis dis parturient montes. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Ullamcorper malesuada proin libero nunc consequat interdum. Est sit amet facilisis magna etiam tempor orci eu lobortis.    
+                    Fundada com a visão de proporcionar conveniência e qualidade, a DonLau&Cia se destaca em três áreas principais: venda de botijas de gás, serviços de táxi privado e turismo, e entregas ao domicílio. 
                 </p>
-                <img src="/Media/dl_a00975613.jpg" alt="" className="img1" />
+                <div className="logotipos">
+                    <img src="/Media/DonLaU.png" alt="" />
+                    <img src="/Media/Destination.png" alt="" />
+                    <img src="/Media/Delly.png" alt="" />
+                </div>    
             </section>
             <section className="section3">
-                    <h2>Deixa que nós tratamos do seu jantar</h2>
-                    <div className='cards'>
-                        <div className='card1'>
-                            <div className='left'>
-                            <form>
-                                <label>Encomenda</label>
-                                <input type="adress" placeholder="Endereço"/>
-                                <input type="contact" placeholder="Telemóvel"/>
-                                <input type="number" placeholder="Quantidade"/>
-                                <button className='btn'>Enviar</button>
-                            </form>
-                            </div>
-                            <div className='card2'>
-                                <h2>Contact-nos</h2>
-                                <dl>
-                                    <dt>Email:</dt>
-                                    <dd>machado@gmail.com</dd>
-                                    <dt>Telemóvel:</dt>
-                                    <dd>12345678</dd>
-                                    <dt>Whatsapp:</dt>
-                                    <dd>1234567890</dd> 
-                                </dl>
-                            </div>
-                            <div className='card3'>
-                                <h2>Brevemente</h2>
-                                <p> Subscrição: Vai puder pagar mensalmente um valor e ter uma motija de gás todos os meses no final de cada mês </p>
-                            </div>
-                        </div>
+                <div className="card">
+                    <img src="/Media/dl_a00975613.jpg" alt="" className="card-img"/>
+                    <div className="card-body">
+                        <h2 className="card-title">Encomenda</h2>
+                        <p className="card-info">Peça já a sua botija de gás e em 48h terá a mesma na porta da sua casa</p>
+                        <button className="card-btn">Pedir</button>   
                     </div>
+                </div>
+                <div className="card">
+                    <img src="/Media/cms-image-000035046.jpg" alt="" className="card-img"/>
+                    <div className="card-body">
+                        <h2 className="card-title">Gás Mensal</h2>
+                        <p className="card-description">A DonLau&Cia tem o prazer de anunciar uma nova e conveniente opção para nossos clientes </p>
+                        <p className="card-info">Os clientes podem assinar um plano que lhes permite receber uma botija de gás em sua casa todos os meses, sem a necessidade de fazer pedidos individuais repetidamente, basta escolher o plano que melhor se adapta às suas necessidades e deixar o resto conosco.</p>
+                        <button className="card-btn">subscrever</button>   
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="https://media.idownloadblog.com/wp-content/uploads/2020/12/Add-New-Contact-iPhone-2048x1379.jpg" alt="" className="card-img"/>
+                    <div className="card-body">
+                        <h2 className="card-title">Contactos</h2>
+                        <dl>
+                            <dt>Email:</dt>
+                            <dd>machado@gmail.com</dd>
+                            <dt>Telemóvel:</dt>
+                            <dd>12345678</dd>
+                            <dt>Whatsapp:</dt>
+                            <dd>1234567890</dd> 
+                        </dl>
+                          
+                    </div>
+                </div>    
             </section>   
         </main>
     )
