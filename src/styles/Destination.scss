@@ -1,15 +1,14 @@
 #Destination {
-    background: radial-gradient(rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+    background: #101726;
     font-family: 'roboto', sans-serif;
     color: white;
 
     .dashboard {
-        width: 100%;
+        width: 100vw;    
     }
 
     .section2 {
-        border: 1px solid red;
-        color: radial-gradient(rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));;
+        
         h1 {
             font-size: 100px;
             text-align: center;
@@ -28,15 +27,16 @@
             margin-bottom: 100px;
         }
     }
+
     .reviews {
-        border: 5px solid black;
         color: white;
-        background-color: pink;
+        font-family: 'roboto', sans-serif;
+        font-weight: bold;
         display: flex;
         justify-content: space-between;
         text-align: center;
-        height: 30%;
-        margin: 30px;
+        padding: 100px;
+        padding-bottom: 20px;
 
         .stars {
             width: 150px;
@@ -45,6 +45,7 @@
         p {
             font-size: 1rem;
             margin-bottom: 100px;
+            padding-bottom: 100px;
         }
         
         .profilePicture1, .profilePicture2, .profilePicture3 {
@@ -57,7 +58,8 @@
     .section3 {
         display: flex;
         justify-content: space-around;
-        padding: 30px;
+        padding: 10px;
+        background-image: url('/public/Media/layered-waves-haikei.svg');
 
         .card {
             width: 320px;
