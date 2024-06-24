@@ -5,7 +5,7 @@ export default function Destination() {
     return (
         <main id="Destination">
             <img src="/Media/Dashboard.png" alt="" className="dashboard"/>
-            <section className="section2">
+            <section className="section4">
                 <h1> Sobre nós</h1>
                 <p>Além do comércio de gás, a DonLau&Cia também opera um serviço de táxi privado, proporcionando transporte seguro, confortável e pontual. Ideal tanto para deslocações diárias quanto para viagens turísticas, a empresa oferece uma experiência de viagem personalizada. Os motoristas são profissionais experientes, prontos para proporcionar uma viagem agradável, seja para negócios ou lazer.</p>
             </section>
@@ -41,7 +41,7 @@ export default function Destination() {
                     <p>Uma maravilha!!!</p>
                 </div>
             </section>
-            <section className="section3">
+            <section className="section5">
                 <div className="card">
                     <img src="/Media/PrivateTaxi.jpg" alt="" className="card-img"/>
                     <div className="card-body">

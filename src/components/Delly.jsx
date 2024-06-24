@@ -4,13 +4,13 @@ export default function Delly() {
 
     return (
         <main id="Delly">
-            <section className="section3">
-                <h1>Faça já o seu pedido</h1>
+            <section className="section7">
+                <h2>Rápido e Eficaz</h2>
                 <p>
-                Entendendo a crescente demanda por conveniência, a DonLau&Cia também oferece serviços de entrega ao domicílio. Seja para a entrega de botijas de gás, compras de supermercado ou outros itens essenciais, a empresa garante um serviço rápido e confiável, facilitando a vida dos seus clientes
+                    Entendendo a crescente demanda por conveniência, a DonLau&Cia também oferece serviços de entrega ao domicílio (Delly). Seja para a entrega de botijas de gás, compras de supermercado ou outros itens essenciais, a empresa garante um serviço rápido e confiável, facilitando a vida dos seus clientes.
                 </p>
-            </section>
-            <div className="logos">
+                <img src="/Media/DonLaU (2).png" alt="" className="Appstore"/>
+                <div className="logos">
                 <div className="logos-slide">
                     <img src="/Media/logo2.png" alt="" />
                     <img src="/Media/logo4.png" alt="" />
@@ -18,25 +18,24 @@ export default function Delly() {
                     <img src="/Media/logo9.png" alt="" />
                     <img src="/Media/logo5.png" alt="" />
                     <img src="/Media/logo1.png" alt="" />
+                    <img src="/Media/logo20.png" alt="" />
+                    <img src="/Media/logo21.png" alt="" />
                 </div>
             </div>
-            <section className="video">
-            <video controls autoPlay loop>
-                <source src="/Media/mixkit-adding-food-to-a-shopping-cart-14991-hd-ready.mp4" type="video/mp4"/>
-            </video>
-            </section>
-            <div className="logos">
-                <div className="logos-slide">
-                    <img src="/Media/logo6.png" alt="" />
-                    <img src="/Media/logo7.png" alt="" />
-                    <img src="/Media/logo8.png" alt="" />
-                </div>
-            </div>
-            <section className="video">
-            <video controls autoPlay loop>
-                <source src="/Media/mixkit-a-man-lying-on-the-bed-scrolling-food-pictures-on-13169-hd-ready.mp4" type="video/mp4"/>
-            </video>
-            </section>
+            </section>    
+            <section className="section6">
+                <h1>Faça já o seu pedido</h1>
+                <p>
+                    Diferente dos outros serviços de delivery que precisas pagar custos adicionais para puderes ter o artigo alguns dias mais cedo, nós na Delly fazemos sem custos adicionais e dependendo da distâcia e do artigo em menos de 48h terá o produto na porta da sua casa.      
+                </p>
+            </section>    
+            <section className="section8">
+                <h2>Herdade Machado</h2>
+                <p>
+                Estamos empolgados em anunciar que a DonLau&Cia está expandindo seus horizontes! Em breve, nossa fazenda estará produzindo uma variedade deliciosa de frutas e verduras fresquinhas, direto do campo para a sua mesa.    
+                </p>
+                
+            </section>    
         </main>
     )
 }

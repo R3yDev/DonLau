@@ -6,7 +6,7 @@
 #Destination .dashboard {
   width: 100vw;
 }
-#Destination .section2 h1 {
+#Destination .section4 h1 {
   font-size: 100px;
   text-align: center;
   margin-left: 50px;
@@ -14,7 +14,7 @@
   margin-bottom: 50px;
   margin-top: 50px;
 }
-#Destination .section2 p {
+#Destination .section4 p {
   font-size: 2rem;
   text-align: center;
   margin-left: 50px;
@@ -45,13 +45,13 @@
   height: 100px;
   margin-bottom: 20px;
 }
-#Destination .section3 {
+#Destination .section5 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
   background-image: url("/public/Media/layered-waves-haikei.svg");
 }
-#Destination .section3 .card {
+#Destination .section5 .card {
   width: 320px;
   height: 500px;
   border-radius: 20px;
@@ -59,14 +59,14 @@
   border: 8px solid white;
   position: relative;
 }
-#Destination .section3 .card-img {
+#Destination .section5 .card-img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-#Destination .section3 .card-body {
+#Destination .section5 .card-body {
   width: 100%;
   height: 100%;
   top: 0;
@@ -82,27 +82,27 @@
   justify-content: center;
   transition: 2s;
 }
-#Destination .section3 .card:hover .card-body {
+#Destination .section5 .card:hover .card-body {
   right: 0;
 }
-#Destination .section3 .card-title {
+#Destination .section5 .card-title {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 500;
 }
-#Destination .section3 .card-description {
+#Destination .section5 .card-description {
   padding-left: 2px;
   font-size: 1rem;
   font-weight: 300;
 }
-#Destination .section3 .card-info {
+#Destination .section5 .card-info {
   padding-left: 2px;
   font-size: 1rem;
   line-height: 25px;
   margin: 40px 0;
   font-weight: 400;
 }
-#Destination .section3 .card-btn {
+#Destination .section5 .card-btn {
   color: #1f3d47;
   background: #8fabba;
   padding: 10px 20px;

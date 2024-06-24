@@ -1,25 +1,66 @@
 #Delly {
   color: white;
-  background-color: #C3E4F3;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
 }
-#Delly .section3 h1 {
-  width: 980px;
-  height: 10px;
-  padding: 200px;
-  font-size: 100px;
+#Delly .section6 {
+  height: 100vh;
+  background-image: url("/public/Media/Header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+#Delly .section6 h1 {
   text-align: center;
-  outline: 1px solid red;
+  font-size: 4rem;
+  padding-top: 350px;
+  margin-bottom: 20px;
 }
-#Delly .section3 p {
-  padding-top: 30px;
+#Delly .section6 p {
+  text-align: center;
   font-size: 2rem;
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 100px;
-  outline: 1px solid red;
+  padding: 30px;
+  line-height: 40px;
 }
-@keyframes slide {
+#Delly .section7 {
+  color: black;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  background-image: url("/public/Media/DellyDelly.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Delly .section7 h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 250px;
+  margin-bottom: 20px;
+}
+#Delly .section7 p {
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+  padding: 30px;
+  line-height: 40px;
+}
+#Delly .section7 .Appstore {
+  width: 250px;
+  border-radius: 120px;
+  margin-left: 840px;
+}
+#Delly .section7 .logos {
+  padding: 60px 0;
+  overflow: hidden;
+}
+#Delly .section7 .logos .logos-slide {
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 20px;
+  animation: 5s Slide infinite linear;
+}
+@keyframes Slide {
   from {
     transform: translateX(0);
   }
@@ -27,19 +68,27 @@
     transform: translateX(-100);
   }
 }
-#Delly .logos {
-  padding: 60px 0;
-  overflow: hidden;
-}
-#Delly .logos .logos-slide {
-  background: #f2f2f2;
-  white-space: nowrap;
-  display: inline-block;
-  animation: 5s slide infinite linear;
-  margin-top: 130px;
-}
-#Delly .logos .logos-slide img {
+#Delly .section7 .logos .logos-slide img {
   height: 100px;
   margin: 0 40px;
   padding: 15px;
+}
+#Delly .section8 {
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  background-image: url("/public/Media/HerdadeMachado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Delly .section8 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 300px;
+  margin-bottom: 20px;
+}
+#Delly .section8 p {
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=Delly.css.map */

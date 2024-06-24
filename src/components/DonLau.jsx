@@ -7,13 +7,13 @@ export default function DonLau() {
             <section className="section1">
                 <img src="/Media/s.JPG" alt="" className="img1" />
                 <p>
-                    A DonLau&Cia é uma empresa multifacetada, dedicada a oferecer uma ampla gama de serviços para satisfazer as necessidades diárias de seus clientes.
+                    A DonLau&Cia é uma empresa multifacetada, dedicada a oferecer uma ampla gama de serviços para satisfazer as necessidades diárias de seus cliente.
                     É impulsionada por um compromisso com a excelência em todas as suas operações. Com uma equipe dedicada e um foco constante em inovação e melhoria de serviços, a empresa continua a expandir e a melhorar suas ofertas, sempre com o objetivo de superar as expectativas dos clientes.    
                 </p>
                 </section>
                 <section className="section2">
                 <p>
-                    Fundada com a visão de proporcionar conveniência e qualidade, a DonLau&Cia se destaca em três áreas principais: venda de botijas de gás, serviços de táxi privado e turismo, e entregas ao domicílio. 
+                    Fundada com a visão de proporcionar conveniência e qualidade, a DonLau&Cia se destaca em três áreas principais: venda de botijas de gás, serviços de táxi privado, turismo, entregas ao domicílio e futuramente a venda de frutas e verduras vindos da Herdade Machado. 
                 </p>
                 <div className="logotipos">
                     <img src="/Media/DonLaU.png" alt="" />
@@ -50,8 +50,7 @@ export default function DonLau() {
                             <dd>12345678</dd>
                             <dt>Whatsapp:</dt>
                             <dd>1234567890</dd> 
-                        </dl>
-                          
+                        </dl>      
                     </div>
                 </div>    
             </section>   

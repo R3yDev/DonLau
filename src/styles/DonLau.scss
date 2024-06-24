@@ -11,7 +11,6 @@
     font-family: "Playfair Display", serif;
     
     .section1 {
-        width: 100vw;
         height: 100vh;
         scroll-snap-align: start;
         display: flex;
@@ -47,6 +46,8 @@
             margin-right: 50px;
             margin-bottom: 100px;
             margin-top: 100px;
+            letter-spacing: 2px;
+            line-height: 50px;
             animation: fadeUp 2s;
             @keyframes fadeUp {
                 0% {
