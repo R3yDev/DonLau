@@ -13,7 +13,7 @@ export default function DonLau() {
                 </section>
                 <section className="section2">
                 <p>
-                    Fundada com a visão de proporcionar conveniência e qualidade, a DonLau&Cia se destaca em três áreas principais: venda de botijas de gás, serviços de táxi privado, turismo, entregas ao domicílio e futuramente a venda de frutas e verduras vindos da Herdade Machado. 
+                    Fundada com a visão de proporcionar conveniência e qualidade, a DonLau&Cia se destaca em quatro áreas principais: venda de botijas de gás, serviços de táxi privado, turismo, entregas ao domicílio e futuramente a venda de frutas e verduras vindos da Herdade Machado. 
                 </p>
                 <div className="logotipos">
                     <img src="/Media/DonLaU.png" alt="" />
@@ -45,11 +45,11 @@ export default function DonLau() {
                         <h2 className="card-title">Contactos</h2>
                         <dl>
                             <dt>Email:</dt>
-                            <dd>machado@gmail.com</dd>
+                            <dd>donlau@gmail.com</dd>
                             <dt>Telemóvel:</dt>
-                            <dd>12345678</dd>
+                            <dd>+244 000 000 000</dd>
                             <dt>Whatsapp:</dt>
-                            <dd>1234567890</dd> 
+                            <dd>+244 000 000 000</dd> 
                         </dl>      
                     </div>
                 </div>    

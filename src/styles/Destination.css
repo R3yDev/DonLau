@@ -1,9 +1,10 @@
+/*Normal Laptop Display*/
 #Destination {
   background: #101726;
   font-family: "roboto", sans-serif;
   color: white;
 }
-#Destination .dashboard {
+#Destination .section4 .video {
   width: 100vw;
 }
 #Destination .section4 h1 {
@@ -12,7 +13,7 @@
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #Destination .section4 p {
   font-size: 2rem;
@@ -20,6 +21,7 @@
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 100px;
+  line-height: 70px;
 }
 #Destination .reviews {
   color: white;
@@ -113,4 +115,8 @@
   outline: none;
   font-weight: 500;
   cursor: pointer;
-}/*# sourceMappingURL=Destination.css.map */
+}
+
+/*Large Monitor Display*/
+/*Tablet Display*/
+/*Smartphone Display*//*# sourceMappingURL=Destination.css.map */

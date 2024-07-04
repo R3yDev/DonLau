@@ -1,34 +1,19 @@
+@keyframes Slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}  
+
+/*Normal Laptop Display*/
 #Delly {
     color: white;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     height: 100vh;
     
-    
-    .section6 {
-        height: 100vh;
-        background-image: url('/public/Media/Header.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: "Playfair Display", serif;
-        font-weight: bold;
-
-
-        h1 {  
-            text-align: center;
-            font-size: 4rem;
-            padding-top: 350px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            text-align: center;
-            font-size: 2rem;
-            padding: 30px;
-            line-height: 40px;
-        }    
-    }
-
     .section7 {
         color: black;
         height: 100vh;
@@ -37,10 +22,10 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        h2 {
+        h1 {
             text-align: center;
             font-size: 4rem;
-            padding-top: 250px;
+            padding-top: 350px;
             margin-bottom: 20px;
         }
 
@@ -68,15 +53,7 @@
                 white-space: nowrap;
                 display: inline-block;
                 margin-top:20px ;
-                animation: 5s Slide infinite linear;
-                @keyframes Slide {
-                    from {
-                        transform: translateX(0);
-                    }
-                    to {
-                        transform: translateX(-100);
-                    }
-                }  
+                animation: 10s Slide infinite linear;  
                 
                 img {
                     height: 100px;
@@ -87,6 +64,32 @@
         }    
     }
 
+    .section6 {
+        height: 100vh;
+        background-image: url('/public/Media/Header.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+
+
+        h2 {  
+            text-align: center;
+            font-size: 4rem;
+            padding-top: 480px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 2rem;
+            padding: 30px;
+            line-height: 40px;
+        }    
+    }
+
+    
+
     .section8 {
         height: 100vh;
         font-family: "Playfair Display", serif;
@@ -94,7 +97,7 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        h2 {
+        h3 {
             text-align: center;
             font-size: 2.5rem;
             padding-top: 300px;
@@ -106,9 +109,66 @@
             font-size: 2rem;
             margin-left: 10px;
             margin-bottom: 20px;
-        }
-        
-        
-        
+        }   
     }
 }
+
+/*Large Monitor Display*/
+@media (min-width: 3840px) {
+    #Delly {
+        .section7 {
+            h1 {
+                padding-top: 750px;
+                font-size: 5rem;
+            } 
+            p {
+                width: 70%;
+                padding-left: 550px;
+                font-size: 4rem;
+                line-height: 90px;
+            }
+
+            .Appstore {
+                width: 400px;
+                border-radius: 120px;
+                margin-left: 1700px;
+                margin-top: 20px;
+            }
+
+            .logos-slide {
+                padding-top: 200px;
+            }
+        }
+        .section6 {
+            h2 {
+                padding-top: 1000px;
+                font-size: 6rem;
+                font-weight: 100;
+            }
+
+            p {
+                font-size: 5rem;
+                line-height: 90px;
+                font-weight: 100;
+            }
+        }
+        .section8 {
+            h3 {
+                padding-top: 600px;
+                font-size: 3rem;
+                font-weight: 100;
+            }
+
+            p {
+                font-size: 4rem;
+                line-height: 90px;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+/*Tablet Display*/
+
+
+/*Smartphone Display*/

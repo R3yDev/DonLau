@@ -1,13 +1,14 @@
+/*Normal Laptop Display*/
 #Destination {
     background: #101726;
     font-family: 'roboto', sans-serif;
     color: white;
 
-    .dashboard {
-        width: 100vw;    
-    }
-
+    
     .section4 {
+        .video {
+            width: 100vw;
+        }
         
         h1 {
             font-size: 100px;
@@ -15,8 +16,7 @@
             margin-left: 50px;
             margin-right: 50px;
             margin-bottom: 50px;
-            margin-top: 50px;
-            
+            margin-top: 20px;
         }
 
         p {
@@ -25,6 +25,7 @@
             margin-left: 50px;
             margin-right: 50px;
             margin-bottom: 100px;
+            line-height: 70px;
         }
     }
 
@@ -132,5 +133,12 @@
           }
     }
 }
+
+/*Large Monitor Display*/
+
+/*Tablet Display*/
+
+/*Smartphone Display*/
+
     
 

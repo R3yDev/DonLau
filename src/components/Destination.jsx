@@ -4,8 +4,10 @@ export default function Destination() {
 
     return (
         <main id="Destination">
-            <img src="/Media/Dashboard.png" alt="" className="dashboard"/>
             <section className="section4">
+            <video autoPlay loop className="video">
+                <source src="/Media/Destination.mp4" type="video/mp4"/>
+            </video>
                 <h1> Sobre nós</h1>
                 <p>Além do comércio de gás, a DonLau&Cia também opera um serviço de táxi privado, proporcionando transporte seguro, confortável e pontual. Ideal tanto para deslocações diárias quanto para viagens turísticas, a empresa oferece uma experiência de viagem personalizada. Os motoristas são profissionais experientes, prontos para proporcionar uma viagem agradável, seja para negócios ou lazer.</p>
             </section>
@@ -66,11 +68,11 @@ export default function Destination() {
                         <h2 className="card-title">Contacto</h2>
                         <dl>
                             <dt>Email:</dt>
-                            <dd>machado@gmail.com</dd>
+                            <dd>donlau@gmail.com</dd>
                             <dt>Telemóvel:</dt>
-                            <dd>12345678</dd>
+                            <dd>+244 000 000 000</dd>
                             <dt>Whatsapp:</dt>
-                            <dd>1234567890</dd> 
+                            <dd>+244 000 000 000</dd> 
                         </dl>
                     </div>
                 </div>    

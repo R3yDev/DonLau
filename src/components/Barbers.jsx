@@ -7,7 +7,7 @@ export default function Barbers() {
             <div class="modal">
                 <div>
                     <div>
-                        Em Construção, deseja ser notificado(a) ?
+                    Brevemente, deseja ser notificado(a) ?
                     </div>
                     <div>
                         <form>

@@ -1,8 +1,24 @@
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
-  #Home {
-    display: block;
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
   }
 }
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+/*Normal Laptop Display*/
 #Home {
   overflow-y: auto;
   scroll-snap-type: y mandatory;
@@ -22,22 +38,14 @@
   background-size: cover;
 }
 #Home .section1 .img1 {
+  width: 150%;
   border-radius: 500px;
   margin-left: 100px;
   box-shadow: 5px -5px 48px #1e427b, -5px 5px 48px #59c6ff;
   animation: fadeUp 2s;
 }
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px) scale(1);
-  }
-}
 #Home .section1 p {
+  font-weight: 100;
   font-size: 2rem;
   text-align: center;
   margin-left: 50px;
@@ -47,16 +55,6 @@
   letter-spacing: 2px;
   line-height: 50px;
   animation: fadeUp 2s;
-}
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px) scale(1);
-  }
 }
 #Home .section2 {
   width: 100vw;
@@ -106,7 +104,8 @@
   overflow: hidden;
   border: 8px solid white;
   position: relative;
-  margin-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
   box-shadow: 5px -5px 48px #1e427b, -5px 5px 48px #59c6ff;
 }
 #Home .section3 .card-img {
@@ -163,4 +162,39 @@
   outline: none;
   font-weight: 500;
   cursor: pointer;
-}/*# sourceMappingURL=DonLau.css.map */
+}
+
+/*Large Monitor Display*/
+@media (min-width: 3840px) {
+  #Home .section1 {
+    padding-left: 200px;
+  }
+  #Home .section1 .img1 {
+    width: 20%;
+    border-radius: 500px;
+    margin-left: 100px;
+    box-shadow: 5px -5px 48px #1e427b, -5px 5px 48px #59c6ff;
+  }
+  #Home .section1 p {
+    margin-left: 200px;
+    width: 1000px;
+    font-size: 3rem;
+    line-height: 80px;
+  }
+  #Home .section2 p {
+    padding-top: 700px;
+    line-height: 60px;
+    margin-left: 600px;
+    font-size: 3rem;
+    width: 2000px;
+  }
+  #Home .section2 .logotipos {
+    padding-left: 1000px;
+    gap: 100px;
+  }
+  #Home .section3 .card {
+    margin-left: 300px;
+  }
+}
+/*Tablet Display*/
+/*Smartphone Display*//*# sourceMappingURL=DonLau.css.map */
